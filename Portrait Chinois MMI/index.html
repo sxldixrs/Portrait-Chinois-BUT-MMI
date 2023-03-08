@@ -1,0 +1,81 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/0c87a70838.js%22%3E"></script>
+    <title>Portrait Chinois</title>
+  </head>
+  <body>
+    <div class="menu">
+   <header>BUT MMI1</header>
+    <h4>Portrait Chinois</h4>
+    <p>Un portrait chinois est un jeu littéraire qui permet de décrire certains traits</p> 
+    <p>de sa personnalité et de s'imaginer de différentes manières, à travers l'analogie "Si j'étais... je serais...".</p>
+    </br></br></br></br>
+    <p class="scrollmenu">↓ Scroll une fois pour commencer ↓</p>
+  </div>
+    <div class="main"></div>
+
+    <!-- ICONES -->
+
+    <a href="#" class="accueil">
+      <img src="accueil.png" class="icone">
+    </a>
+    <a href="#footer" class="mentions">
+      <img src="mentions légales.png" class="icone">
+    </a>
+
+    <!-- FORMULAIRE -->
+
+    <div class="formulaire">
+      <h1>Vous souhaitez ajouter votre propre analogie ?</h1>
+    </br>
+      <label for="analogie"> Si j'étais </label>
+      <input type="text" id="analogie" placeholder="un fruit"/>
+      <label for="valeurAnalogie"> je serais </label>
+      <input type="text" id="valeurAnalogie" placeholder="une pomme"/>
+      <label for="explication"> car </label>
+      <input type="text" id="explication" placeholder="c'est super bon !"/>
+      <label>Votre adresse email</label>
+      <input type="email" id="email" placeholder="votre adresse email">
+      <label for="image"></label>
+      <input type="file"  accept="image/*" name="image" id="file" onchange="loadFile(event)" style="display: none;">
+            <label class="ici" for="file" style="cursor: pointer;">Cliquez ici pour insérer votre image</label>
+      <div class="centrer">
+        <input class="Envoyer" type="submit" id="Envoyerform" />
+      </div>
+    </div>
+
+    <!-- FOOTER MENTIONS LÉGALES -->
+
+    <footer id="footer">
+    <button id="modal-btn1" class="button">Mentions légales</button>
+    <div id="my-modal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>MENTIONS LÉGALES</h2>
+        </div>
+        <div class="modal-body">
+          <p class="p">Quokka 😍 → Photo de <a href="https://www.flickr.com/photos/samuelwest"> Samuel West</a> sur <a href="https://www.flickr.com/photos/samuelwest/15414659352">Flickr</a></p>
+          <p class="p">Demon Slayer 🗡️ → Photo de Zupremo Andres sur <a href="https://www.publicdomainpictures.net/fr/view-image.php?image=369583&picture=anime-tueur-de-demons-giyu">PublicDomainPictures</a></p>
+          <p class="p">The Last Of Us 🕹️ → Photo de <a href="https://www.flickr.com/photos/naughty_dog"> Naughty Dog</a> sur <a href="https://www.flickr.com/photos/naughty_dog/6484012229">Flickr</a></p>
+          <p class="p">Tokyo ⛩️ → Photo de <a href="https://unsplash.com/@sergio_rola?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Sérgio Rola</a> sur <a href="https://unsplash.com/fr/photos/bVM7IO7pt7s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+          <p class="p">Astronomie ✨ → Photo de <a href="https://unsplash.com/@freedomstudios?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Graham Holtshausen</a> sur <a href="https://unsplash.com/fr/photos/fUnfEz3VLv4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+          <p class="p">Star Wars 🚀 → Photo de <a href="https://unsplash.com/@sushioutlaw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Brian McGowan</a> sur <a href="https://unsplash.com/fr/photos/ggg_B1MeqQk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+          <p class="p">The Walking Dead 🧟 → Photo de <a href="https://www.flickr.com/people/rollercoasterphilosophy"> Jeremy Thompson</a> sur <a href="https://www.flickr.com/photos/rollercoasterphilosophy/29922132304">Flickr</a></p>
+        </br>
+          <p class="p">Un grand merci à Noah CALMETTE (TPA) pour l'aide qu'il m'a apporté !</p>
+      </br>
+      <span>Pour les personnes qui rempliront le formulaire, je vous informe que votre adresse mail ainsi que votre adresse IP seront conservées pendant un an au minimum. Si vous avez des questions, veuillez contacter la personne responsable du traitement des données: <u>philippe.gambette@univ-eiffel.fr</u>. Merci de votre compréhension. </span>
+        </br></br>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  </body>
+  <script src="script.js"></script>
+</html>

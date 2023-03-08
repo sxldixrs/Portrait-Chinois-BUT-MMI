@@ -1,0 +1,57 @@
+[
+    {
+        "id":"tab-ANIMAL",
+        "analogie":"un animal",
+        "valeurAnalogie":"un Quokka 😍",
+        "explication":"Les quokkas ne sont pas seulement les créatures les plus mignonnes d'Australie, mais ils sont en plus considérés comme les animaux les plus heureux du monde! Eh oui, comme quoi, tous les animaux australiens ne sont pas tous des monstres cruels prêts à vous tuer ... Affichant tout le temps un air mignon, il nous donne envie de lui faire un gros câlin ! (comme moi 😊)",
+        "image":"<img src='quokka.jpg'>"
+    },
+
+    {
+        "id":"tab-ANIME",
+        "analogie":"un anime",
+        "valeurAnalogie":"Demon Slayer 🗡️",
+        "explication":"C'est actuellement le manga le plus populaire et le plus vendu au Japon. Son succès s'est propagé grâce à son adaptation animée d'une qualité exceptionnelle. L'animation réalisée par le studio Ufotable classe la série au rang de chef-d'oeuvre du genre. Chaque scène de combat devient un spectacle, et les paysages laissent place à de l'émerveillement. De plus, il est impossible de le regarder sans s'attacher à un des personnages.",
+        "image":"<img id=tonID src='demonslayer.png'>"
+    },
+
+    {
+        "id":"tab-JEU",
+        "analogie":"un jeu vidéo",
+        "valeurAnalogie":"The Last Of Us 🕹️",
+        "explication":"The Last of Us est peut-être l'une de ces œuvres immortelles qui ne fait que de s'améliorer avec le temps. Il a accumulé plus de 200 récompenses en tant que jeu de l'année depuis son lancement original en 2013. C'est sans doute l'un des meilleurs jeux jamais conçus, si ce n'est le meilleur. C'est un jeu post-apocalyptique devant lequel j'ai ressenti énormément d'émotions et je le considère comme mon jeu préféré.",
+        "image":"<img src='the last of us.png'>"
+    },
+
+    {
+        "id":"tab-VILLE",
+        "analogie":"une ville",
+        "valeurAnalogie":"Tokyo ⛩️",
+        "explication":"Tokyo... Je n'y ai jamais été et pourtant je ne peux m'empêcher de dire que c'est un des plus beaux endroits au monde. La capitale du Japon est une ville remplie de modernité. Avec ses fameuses rues emblématiques colorées et ses temples, Tokyo est devenue une ville iconique au cours des dernières années. La culture japonaise est aussi quelque chose que je trouve fascinant, tant avec son histoire qu'avec sa mythologie incroyable.",
+        "image":"<img src='tokyo.jpg'>"
+    },
+
+    {
+        "id":"tab-SCIENCE",
+        "analogie":"une science",
+        "valeurAnalogie":"l'Astronomie ✨",
+        "explication":"Approcher les étoiles, découvrir de nouvelles planètes... L'univers est tellement vaste qu'on ne pourra jamais tout découvrir. C'est la recherche de notre place et de qui nous sommes, de la même manière que je me suis intéressé aux fossiles, qui est une question existencielle importante. Comment peut-on ne pas s'y intéresser ? Être indifférent à l'astronomie, c'est être indifférent à sa propre existence.",
+        "image":"<img src='astronomie.jpg'>"
+    },
+
+    {
+        "id":"tab-UNIVERS",
+        "analogie":"un univers de Sci-Fi",
+        "valeurAnalogie":"Star Wars 🚀",
+        "explication":"Dès la sortie du premier opus A New Hope (1977), la saga connait un succès quasi-immédiat et planétaire. Les effets spéciaux, les décors et la crédibilité de l'univers nous permettent de percevoir la grandeur de l'espace et d'en imaginer les mystères ! C'est une expérience tout bonnement hors-norme et je suis un très grand fan de cette saga que je considère d'ailleurs comme la meilleure série de films.",
+        "image":"<img src='star wars.jpg'>"
+    },
+
+    {
+        "id":"tab-SERIE",
+        "analogie":"un série",
+        "valeurAnalogie":"The Walking Dead 🧟",
+        "explication":"The Walking Dead est une série mythique qui vaut le coup d'être vue. Elle est spectaculaire et le travail sur les personnages ainsi que les décors sont vraiment très réussis. La série commence après le début d'une apocalypse causée par un virus transformant les humains infectés en zombies et nous suivons l'histoire de Rick Grimes. La série américaine a été élue meilleure série de tous les temps et c'est largement mérité.",
+        "image":"<img src='the walking dead.jpg'>"
+    }
+]

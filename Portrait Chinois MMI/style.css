@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+@font-face {
+  font-family: "Hello";
+  src: url("Hello.otf") format("otf"), url("Hello.ttf") format("truetype");
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background-image: url("fond bulles.png");
+  /*background-color: rgb(37, 35, 35);*/
+  scroll-snap-type: y mandatory;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  background-attachment: fixed;
+}
+
+header {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 30;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 20;
+}
+
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: rgb(94, 86, 86);
+  font-size: 20;
+  text-align: justify;
+  margin: auto;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: justify;
+  font-size: 25;
+}
+
+h4 {
+  font-family: "Hello", sans-serif;
+  color: rgb(92, 92, 92);
+  font-size: 155;
+  text-align: center;
+  margin-top: 22vh; /* mettre à 25 si c'est trop gênant */
+  margin-bottom: -60;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(92, 92, 92);
+  font-size: 20;
+  text-align: center;
+  margin-bottom: -15;
+  font-weight: bold;
+}
+
+.scrollmenu {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(92, 92, 92);
+  font-size: 20;
+  text-align: center;
+  padding: 300px;
+  font-weight: bold;
+}
+
+section p {
+  font-family: "Raleway", sans-serif;
+  color: rgb(68, 67, 67);
+  font-size: 18;
+  text-align: justify;
+  padding-right: 50px;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  scroll-snap-align: center;
+}
+
+section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  opacity: 100%;
+  border-radius: 20px;
+  width: 300px;
+  flex-shrink: 0;
+  height: 300px;
+  border-radius: 20px;
+  transform: translateX(-80px);
+  overflow: hidden;
+  float: left;
+  margin-bottom: 50%;
+  margin-top: 4%;
+  border: solid;
+  border-color: rgb(92, 92, 92);
+}
+
+.formulaire h1 {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: rgb(92, 92, 92);
+  font-size: 25;
+  width: 768px;
+  margin: 0 auto;
+}
+
+.formulaire {
+  color: rgb(92, 92, 92);
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+.formulaire p {
+  width: 768px;
+  overflow-wrap: break-word;
+}
+
+input {
+  margin: auto;
+  width: 300px;
+  height: 35px;
+  border: solid 1px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  border: solid 2px;
+  border-color: rgb(92, 92, 92);
+  background-color: #ffffff;
+  opacity: 90%;
+  color: rgb(92, 92, 92);
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
+input:not(.Envoyer),
+label {
+  display: block;
+  text-align: center;
+}
+
+.ici {
+  text-decoration: underline;
+}
+
+.Envoyer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#file {
+  margin: auto;
+  width: 300px;
+  height: 35px;
+  border: solid 1px;
+  margin-bottom: 20px;
+  transition: all 0.5s;
+  border: solid 2px;
+  text-align: center;
+  border-color: rgb(92, 92, 92);
+  background-color: transparent;
+  color: rgb(92, 92, 92);
+  border-radius: 15px;
+}
+
+.screen {
+  width: 95%;
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  background: rgb(255, 255, 255);
+  padding: 25px;
+  border-radius: 25px;
+  height: 400px;
+  text-align: justify;
+  border: solid;
+  border-color: rgb(92, 92, 92);
+  opacity: 100%;
+}
+
+.menu {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.arrow {
+  color: rgb(92, 92, 92);
+  text-decoration: none;
+  font-size: 35px;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+
+.mentions {
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 40px;
+  bottom: 105px;
+  cursor: pointer;
+}
+
+.accueil {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 40px;
+  bottom: 50px;
+  cursor: pointer;
+}
+
+.icone {
+  width: 50px;
+  opacity: 80%;
+}
+
+footer {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(92, 92, 92);
+  font-size: 20;
+  text-align: left;
+  border-color: rgb(92, 92, 92);
+  scroll-snap-align: center;
+  opacity: 90%;
+  height: 20px;
+}
+
+a {
+  color: rgb(58, 55, 55);
+}
+
+/*mentions légales*/
+
+:root {
+  --modal-duration: 1s;
+  --modal-color: #CBE9DC;
+}
+
+.button {
+  background: #858282;
+  padding: 1em 2em;
+  color: #fff;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.button:hover {
+  background: #c1c4c7;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 210px;
+  top: 100px;
+  height: 100%;
+  width: 1500px;
+  overflow: auto;
+  background-color: transparent;
+}
+
+.modal-content {
+  margin: 10% auto;
+  width: 60%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
+
+.modal-header h2,
+.modal-footer h3 {
+  margin: 0;
+}
+
+.modal-header {
+  background: var(--modal-color);
+  padding: 15px;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.modal-body {
+  padding: 10px 20px;
+  background: #fff;
+}
+
+.close {
+  margin-top: -8px;
+  float: right;
+  font-size: 30px;
+  color: #fff;
+  border: solid 1px;
+  border-color: #ffffff;
+  background-color: #e65151;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(230, 192, 192);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-body, span {
+  text-align: justify;
+}
